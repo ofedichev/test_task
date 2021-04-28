@@ -1,0 +1,27 @@
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    background: gray;
+    color: white;
+}
+
+
+.parent {
+    max-height: 50px;
+    max-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .child {
+    flex: 1 1 30%; 
+    margin: 5px;
+    
+  }
+  .child img {
+      max-width: 100%;
+      max-height: 70%;
+  }
